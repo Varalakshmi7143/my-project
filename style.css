@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Passions Conflict', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+.logo{
+    
+    font-size: 35px;
+    color:white ;
+    
+}
+
+.btnID{   
+    text-align: center;
+    width: 200px;
+    padding:15px 0;
+    
+    margin:20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color:azure;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: medium;
+    
+}
+span{
+    background: #009688;
+    color: transparent;
+    
+    text-align: center;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left:0;
+    bottom:0;
+    z-index: index-1;
+    transition: 0.5s;
+    
+}
+.btnID:hover span{
+    width: 100%; 
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    font-size: medium;
+}
+.btnID:hover{
+    border:none;
+    color: rgb(0, 0, 0);
+}
+.sec{
+    text-align: center;
+    padding-top: 250px;
+}
+/*.btnID{
+    font-size: 1em;
+    color: azure;
+    background: #ff0055;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top:20px ;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.btnID:hover
+{
+    letter-spacing: 6px;
+}*/
+header{
+    text-align: center;
+    min-height: 100vh;
+    width:100%;
+    background-image:url(bg3.jpeg);
+    background-size:cover ;
+    background-position: center;
+    position:relative;
+
+
+
+    
+}
+header .sticky{
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+header .sticky .logo{
+    color: #111;
+}
+header .navigation{
+    position: relative;
+    display: flex;
+    
+}
+
+header .navigation li
+{
+    border: #000000;
+    margin-top: 30px; 
+    list-style: none;
+    margin-left: 30px;
+    background: #ff0055;
+    border-radius: 50px;
+    padding: 10px 30px;
+} 
+header .navigation li a{
+    text-decoration: none;
+    color:aliceblue;
+}
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+    margin-top: 50%;
+
+}
+.para{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+
+}
